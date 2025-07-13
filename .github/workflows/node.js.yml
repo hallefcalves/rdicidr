@@ -26,6 +26,6 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npm run lint
-    - run: npm run prettier ––write
+    - run: npm run prettier
     - run: CI=true npm run test
     - run: npm run build
